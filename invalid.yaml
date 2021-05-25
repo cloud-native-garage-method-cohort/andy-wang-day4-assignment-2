@@ -4,8 +4,8 @@ metadata:
   generateName: andy-wang-asg2-
 spec:
   pipelineRef:
-    name: andy-wang-pipeline
+name: andy-wang-pipeline
   workspaces:
      name: pipeline-shared-data
-        persistentVolumeClaim:
+        PersistentVolumeClaim:
           claimName: andy-wang-pvc
